@@ -1,4 +1,6 @@
-let fs = require("fs")
-buf = fs.readFileSync(process.argv[2])
+'use strict'
 
-console.log(buf.toString().split("\n").length - 1)
+const fs = require('fs')
+const buf = fs.readFileSync(process.argv[2])
+
+console.log(buf.toString().split('\n').length - 1)

@@ -1,5 +1,7 @@
+'use strict'
+
 function doubleAll(numbers) {
-  return numbers.map(i => i * 2)
+    return numbers.map(i => i * 2)
 }
 
 /* -- Solução fornecida

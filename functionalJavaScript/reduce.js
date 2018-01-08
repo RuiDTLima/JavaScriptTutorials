@@ -1,11 +1,13 @@
+'use strict'
+
 function countWords(inputWords) {
-  return inputWords.reduce(function(ret, word){
-    if (word in ret) {
-      ret[word]++
-    }
-    else ret[word] = 1
-    return ret
-  },{})
+    return inputWords.reduce(function(ret, word){
+        if (word in ret) {
+            ret[word]++
+        }
+        else ret[word] = 1
+        return ret
+    },{})
 }
 
 /* -- Outra solução

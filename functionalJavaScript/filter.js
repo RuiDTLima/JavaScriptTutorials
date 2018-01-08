@@ -1,6 +1,8 @@
+'use strict'
+
 function getShortMessages(messages) {
-  return messages.filter(i => i.message.length < 50)
-                 .map(message => message.message)
+    return messages.filter(i => i.message.length < 50)
+                   .map(message => message.message)
 }
 
 /* Outra solução
